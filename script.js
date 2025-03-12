@@ -93,7 +93,7 @@ function displayNotes(array) {
         let note = document.createElement('div');
         note.classList.add('note');
         note.style.color='red';
-        note.textContent = 'any note found ';
+        note.textContent = 'No notes found ';
         notes.appendChild(note);
     }
 }
